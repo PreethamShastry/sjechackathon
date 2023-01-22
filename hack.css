@@ -1,0 +1,149 @@
+*{
+    margin: 0px;;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+
+}
+.logo{
+    display:flex;
+    width:25%;
+   
+}
+.logo img{
+    width:30%;
+    justify-content: center;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: 5%;
+   
+}
+#log{
+    text-align: center;
+    padding-left:25px;
+    
+   justify-content: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding-top: 30px;
+    font-size: 35px; 
+  color: black;
+    
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 90%;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+    ;
+    /* transition: 0.4s ease; */
+}
+.navlist li{
+    padding: 25px 30px;
+   margin-left: 90px;
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.background{
+    /* background-image: url('https://wallpapercave.com/wp/wp1888099.jpg'); */
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* /* .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    justify-content: space-between; */
+
+/* .col1
+{
+    display: flex;
+    width:50%;
+    
+}
+.col1 img{
+    width: 70%;
+    margin-left: 15%;
+    flex-basis: 40%;
+    
+    
+}
+.col2{
+    display: flex;
+    justify-content: right;
+    width: 90%;
+} */
+/* .firstsection{
+    height:100vh;
+}
+.mainbox{
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:black;
+    max-width: 50%;
+     margin: auto; 
+    height: 85%;
+}
+.fhalf{
+    display: flex;
+
+    
+}
+.second{
+    width: 50%;
+}
+.second img{
+    width: 200%;
+    margin-left: 15%;
+    flex-basis: 40%;
+    margin: auto;
+} */ 
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fhalf{
+    width:150%;
+}
+.shalf{
+    display: flex;
+    width:150%;
+    flex-direction: column;
+    justify-content: center;
+}
+.fhalf img{
+    width:85%;
+}
+.bigtext{
+    font-size: 120px;
+    
+    margin-bottom: 2%;
+}
+.smalltext{
+    font-size: 20px;
+}
+.buton{
+    justify-content: center;
+    margin-top: 2%;
+    align-items: center;
+    margin-left: 25%;
+   
+}
+.btn{
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: blue;
+    cursor: pointer;
+    width: 25%;
+}
