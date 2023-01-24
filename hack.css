@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+.mainn{
+    background-color: rgba(180, 234, 180, 0.326);
+}
+
 .navbar{
     display: flex;
 
@@ -44,6 +48,7 @@
     ;
     /* transition: 0.4s ease; */
 }
+
 .navlist li{
     padding: 25px 30px;
    margin-left: 90px;
@@ -106,23 +111,44 @@
     flex-basis: 40%;
     margin: auto;
 } */ 
+
 .mainbox{
     display: flex;
     justify-content: center;
     align-items: center;
+ 
 }
 .fhalf{
     width:150%;
+   
+    margin-top: 25px;
+    margin-left: 20px;
 }
 .shalf{
     display: flex;
     width:150%;
     flex-direction: column;
     justify-content: center;
+    /* background-color: blueviolet; */
+   
 }
 .fhalf img{
     width:85%;
+     box-shadow: 12px 10px 20px 10px grey; 
+    animation: move 6.5s linear infinite;
+    border-radius: 8px;
 }
+/* @keyframes move{
+    0%{
+        transform: translate(-10px,0px);
+    }
+    50%{
+        transform: translate(0px, -10px);
+    }
+    100%{
+        transform: translate(-10px, 0px);
+    }
+} */
 .bigtext{
     font-size: 120px;
     
@@ -137,13 +163,37 @@
     align-items: center;
     margin-left: 25%;
    
+   
 }
 .btn{
     font-size: 20px;
     padding: 10px;
-    border: 2px solid red;
     border-radius: 15px;
-    background-color: blue;
+    background-color: rgb(8, 8, 107);
     cursor: pointer;
     width: 25%;
+    color: white;
+    font-style: initial;
+    box-shadow: 3px 3px 2px 2px grey;
+   
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(8, 8, 107);
+    
+}
+.slider{
+    height: 400px;
+    width: 95%;
+    margin: auto;
+    border:5px solid red;
+    margin-top: 80px;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+    position: absolute;
 }
